@@ -3,3 +3,63 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#input-form {
+  padding: 20px;
+  border-radius: 25px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-form label {
+  margin: 5px 0px 5px 0px;
+}
+
+#input-form input,
+#input-form select {
+  padding: 10px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 8px;
+}
+
+#input-form input:focus,
+#input-form select:focus {
+  outline: none;
+}
+
+#input-form input:valid,
+#input-form select:valid {
+  background-color: aliceblue;
+}
+
+#input-form input:invalid,
+#input-form select:invalid {
+  outline: red 2px solid;
+}
+
+#input-form button {
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+  width: 100%;
+  background-color: lightblue;
+  border: none;
+  border-radius: 8px;
+}
+
+#input-form button:hover {
+  background-color: rgb(133, 166, 177);
+}
+
+#input-form button:active {
+  background-color: rgb(91, 122, 133);
+}
